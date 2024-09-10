@@ -29,6 +29,8 @@ F
 2 >= 3
 2 <= 2
 
+
+
 # some what of a cruel joke
 TRUE == 1 # 
 FALSE == 0 
@@ -41,6 +43,7 @@ isTRUE(TRUE) # function testing if the argument is literally TURE
 2 < 3 & (2 == 1 | 2 == 2) # grouping statements for ordering
   
 
+
 # type matter (sometimes)
 "joe" # string or character type 
 typeof("joe")
@@ -50,7 +53,26 @@ TRUE
 typeof(TRUE) # logical or boolean tye
 42 == "42" # equality can cross types
 identical(42, "42") # type matters for identity 
+
+
+
 # variables ----
+x <- "this is a tring" # in R, read as assigning the string to variale x
+x
+typeof(x)
+x <- 10
+x
+x ^ 2 # always refers to the assigned value
+pizza <- "x" # variable names can be most anything
+pizza
+#my var <- 42 # not everything though
+my_var <- 42 # that's better
+#my_var = 42 # works, but not standard in R
+# my_var.pdx <- 42 # works, but don't
+x <- my_var # helps reader follow assignment direction
+x
+
+
 
 
 # data structures ----
