@@ -9,7 +9,47 @@ T
 F
 
 # Operators ----
+2 + 3 # note the spacing
+2 - 3
+2 * 3 # multiplication
+2 / 3
 
+2 ** 3 # but be careful; this is an exponent
+2 ^ 3 # that's better
+
+# comparison 
+2 == 2 # tests for equality
+"Joe" == "joe" # case-semsitive
+2 == 1 + 1 # 0k
+2 == (1 + 1) # better
+
+2 != 1 # test inequality
+2 < 3
+2 > 3
+2 >= 3
+2 <= 2
+
+# some what of a cruel joke
+TRUE == 1 # 
+FALSE == 0 
+isTRUE(1)
+isTRUE(TRUE) # function testing if the argument is literally TURE
+?isTRUE # queries built-in help
+
+2 < 3 & 2 > 3 # both have to pass to return true 
+2 < 3 | 2 > 3 # either one TRUE, all true 
+2 < 3 & (2 == 1 | 2 == 2) # grouping statements for ordering
+  
+
+# type matter (sometimes)
+"joe" # string or character type 
+typeof("joe")
+42 # numeric type (double precision, floating point)
+typeof(42)
+TRUE
+typeof(TRUE) # logical or boolean tye
+42 == "42" # equality can cross types
+identical(42, "42") # type matters for identity 
 # variables ----
 
 
